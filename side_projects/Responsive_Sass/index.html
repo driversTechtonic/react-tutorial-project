@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://kit.fontawesome.com/6fca82b20e.js"></script>
+    <title>Responsive Sass</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="navbar__logo"><img src="./styles/images/lib-3.png" alt="logo" class="navbar__logo--img" style="max-width: 30%;"></a>
+        <div class="navbar__bars">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="navbar__menu">
+            <a href="index.html" class="navbar__menu--links">Home</a>
+            <a href="bookshelf.html" class="navbar__menu--links">Bookshelf</a>
+            <a href="addbook.html" class="navbar__menu--links">Add A Book</a>
+        </div>
+        <div class="wrap">
+            <div class="search">
+                <input type="text" class="search__term" placeholder="Search by Title/Author">
+                <button type="submit" class="search__btn">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <div class="hero">
+        <div class="hero__container">
+            <div class="hero__container--left">
+                <h1>They are coming</h1>
+                <h2>Be prepared</h2>
+                <p>Sign up now to join the list</p>
+                <button class="hero__container--btn">
+                    <a href="#">Sign Up</a>
+                </button>
+            </div>
+            <div class="hero__container--right">
+                <img src="./styles/images/large_library.jpg" alt="library" class="hero__container--img">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

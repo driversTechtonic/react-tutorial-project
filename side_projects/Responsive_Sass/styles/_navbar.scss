@@ -1,0 +1,62 @@
+@import 'colors';
+@import 'responsiveness';
+
+%align-center {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    background: $primary-color;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem calc((100vw - 1200px) / 2);
+    z-index: 10;
+    position: relative;
+
+    &__logo {
+        cursor: pointer;
+        text-decoration: none;
+        margin-left: 24px;
+        @extend %align-center;
+    }
+
+    &__bars {
+        opacity: 0;
+
+        @include media-md {
+            color: $primary-color;
+            opacity: 1;
+            position: absolute;
+            top: 22px;
+            right: 20px;
+            font-size: 2rem;
+        }
+    }
+
+    &__menu {
+        @extend %align-center;
+        list-style: none;
+        text-align: center;
+        margin-right: 24px;
+
+        @include media-md {
+            display: none;
+        }
+
+        &--links {
+            color: $primary-color;
+            @extend %align-center;
+            justify-content: center;
+            text-decoration: none;
+            padding: 0 1rem;
+
+            &:hover {
+                color: $secondary-color;
+                transition: all 0.3s ease; 
+            }
+        }
+    }
+}
+
