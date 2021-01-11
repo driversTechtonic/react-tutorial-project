@@ -1,0 +1,49 @@
+
+
+.Books {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(400px, 1fr));
+    grid-auto-rows: auto;
+    gap: 2rem;
+    margin: 3rem 1rem 2rem 1rem;
+}
+
+.BookDetails__Btn {
+  margin: 4rem 0;
+  text-align: center;
+}
+
+img {
+  height: 300px;
+  width: 200px;
+}
+
+p {
+  margin-top: 1rem;
+}
+
+h2 {
+  margin-top: 1rem;
+}
+
+@media screen and (max-width:
+991px) {
+    .Books {
+        padding-right: 30px;
+        padding-left: 30px;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width:
+768px) {
+    .BookDetails {
+        padding-bottom: 65px;
+    }
+
+    .Books {
+        max-width: 100%;
+        flex-basis: 100%;
+        grid-template-columns: 1fr;
+    }
+}

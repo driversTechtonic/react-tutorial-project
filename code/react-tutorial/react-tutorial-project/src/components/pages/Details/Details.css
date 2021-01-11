@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@media screen and (max-width: 960px) {
+    .Details {
+      overflow: hidden;
+    }
+}

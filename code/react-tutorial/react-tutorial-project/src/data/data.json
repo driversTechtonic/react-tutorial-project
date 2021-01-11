@@ -1,0 +1,71 @@
+
+
+   [
+    {
+      "id": 1,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "published": "09/21/1937",
+      "synopsis":"Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.",
+      "pages":  310,
+      "rating": 4,
+      "book_cover": "images/library/Hobbit_Coverart.jpg"
+  },
+
+  {
+      "id": 2,
+      "title": "Homeland",
+      "author": "R.A. Salvatore",
+      "published": "09/19/1990",
+      "synopsis":"Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.",
+      "pages":  352,
+      "rating": 5,
+      "book_cover": "images/library/homeland_coverart.jpg"
+  },
+
+  {
+      "id": 3,
+      "title": "Tess of the d’Ubervilles",
+      "author": "Thomas Hardy",
+      "published": "01/01/1892",
+      "synopsis": "Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.",
+      "pages": 592,
+      "rating": 5,
+      "book_cover": "images/library/Tess_Coverart.jpeg"
+  },
+
+  {
+      "id": 4,
+      "title": "Magician",
+      "author": "Raymond E. Feist",
+      "published": "10/01/1982",
+      "synopsis":"Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.",
+      "pages": 545,
+      "rating": 5,
+      "book_cover": "images/library/Magician_Coverart.png"
+  },
+
+  {
+      "id": 5,
+      "title": "The Old Man and the Sea",
+      "author": "Ernest Hemingway",
+      "published": "09/01/1952",
+      "synopsis":"Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.",
+      "pages": 127,
+      "rating": 4,
+      "book_cover": "images/library/Old_Man_Coverart.jpg"
+  },
+
+  {
+      "id": 6,
+      "title": "Jane Eyre",
+      "author": "Charlotte Bronte",
+      "published": "10/16/1847",
+      "synopsis":"Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.",
+      "pages": 352,
+      "rating": 3,
+      "book_cover": "images/library/Jane_Eyre_Coverart.jpg"
+  }
+  
+  ]
+
