@@ -108,7 +108,7 @@ class Form extends Component {
         return <div className='wrapper'>
             <h1>Add A Book</h1>
             <div className='form-wrapper'>
-                <form className='addForm' onSubmit={this.handleSubmit} noValidate>
+                <form action='/bookshelf' method='POST' className='addForm' onSubmit={this.handleSubmit} noValidate>
                     <div className='bookImage'>
                         <label htmlFor='bookImage'>Book Cover</label>
                         <input type='file' className={formErrors.bookImage.length > 0 ? 'error' : null} placeholder='Book Cover' name='bookImage' noValidate onChange={this.handleChange}/>

@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom';
 import { Button } from './Button';
 
 
-function BookDetails () {
+function BookDetails (props) {
     return (
         <div className='BookDetails'>
             <div className='Books'>
-                { Data.map(book => {
+                { Data.filter((book) => book.id === props.id).map(book => {
                     return(
                         <div key={ book.id } className='book'>
                         <img src={book.book_cover} alt='' />

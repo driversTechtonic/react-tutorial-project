@@ -12,7 +12,7 @@ function BookList () {
                     { Data.map(book => {
                         return(
                             <div key={ book.id } className='book'>
-                               <Link to='/details'> <img src={ book.book_cover } alt='Book Cover' /> </Link>
+                               <Link to={`/details/${book.id}`}> <img src={ book.book_cover } alt='Book Cover' /> </Link>
                                 <h2>{ book.title }</h2>
                                 <p>{ book.author }</p>
                                 <p>{ book.published }</p>
